@@ -1,0 +1,5 @@
+TELEMETRY STM32 IMU LITTLE_ENDIAN "IMU Readings"
+  APPEND_ID_ITEM OPCODE 8 UINT 0x1 "Opcode which identifies this packet"
+  APPEND_ITEM X 16 UINT "X angle"
+  APPEND_ITEM Y 16 UINT "Y angle"
+  APPEND_ITEM Z 16 UINT "Z angle"
